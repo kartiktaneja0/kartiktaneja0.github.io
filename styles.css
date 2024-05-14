@@ -30,7 +30,7 @@ nav ul li a {
 }
 
 #hero {
-    background: url('banner-image.jpg') no-repeat center center/cover;
+    background: url(https://media.licdn.com/dms/image/D4E16AQFsniFzE4WXrg/profile-displaybackgroundimage-shrink_350_1400/0/1715686730670?e=1721260800&v=beta&t=RYtamfekuizOe4E4c-7LNsOHRjBj40CAZsVbzurnVYE') no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 4rem 1rem;
