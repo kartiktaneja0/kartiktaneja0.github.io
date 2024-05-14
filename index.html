@@ -5,103 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - [Your Name]</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-vgDLciMP6M3ex/TZONX8oyShyKt+5znTISXGF9zoh+KzRYpZlDCm5Mi8s2x5lXPzENLq6+z2vzQz9IiYBdzDLg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about"><i class="fas fa-user-circle"></i> About</a></li>
+                <li><a href="#projects"><i class="fas fa-laptop-code"></i> Projects</a></li>
+                <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+                <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section id="hero">
+    <section id="hero" class="parallax">
         <div class="container">
             <h1>[Your Name]</h1>
             <p class="subtitle">Aspiring Software Engineer</p>
+            <a href="#about" class="btn">Learn More</a> <!-- Button -->
         </div>
     </section>
-    <section id="about">
+    <section id="about" class="parallax pattern-bg">
         <div class="container">
+            <i class="fas fa-user-circle"></i> <!-- Icon -->
             <h2>About Me</h2>
             <p>As a final-year BTech student in Computer Science at [Your University], I have cultivated a deep passion for software development, artificial intelligence, and machine learning. My academic journey has been complemented by hands-on experience through internships, projects, and hackathons, where I have honed my skills in Python, Java, TensorFlow, and more.</p>
         </div>
     </section>
-    <section id="projects">
+    <section id="projects" class="parallax pattern-bg">
         <div class="container">
+            <i class="fas fa-laptop-code"></i> <!-- Icon -->
             <h2>Projects</h2>
-            <div class="project">
-                <h3>[Project Name 1]</h3>
-                <p>Developed a [brief description of the project].</p>
-                <p><strong>Technologies Used:</strong> Python, Flask, React.js</p>
-                <p><strong>Outcome:</strong> Improved processing speed by 30%, successfully deployed on AWS.</p>
-                <a href="[GitHub Repository Link]" target="_blank">View on GitHub</a>
-                <a href="[Live Project Link]" target="_blank">Live Demo</a>
-            </div>
-            <div class="project">
-                <h3>[Project Name 2]</h3>
-                <p>Created a machine learning model to predict [specific outcome].</p>
-                <p><strong>Technologies Used:</strong> Python, TensorFlow, scikit-learn</p>
-                <p><strong>Outcome:</strong> Achieved an accuracy of 95% on the test dataset.</p>
-                <a href="[GitHub Repository Link]" target="_blank">View on GitHub</a>
-                <a href="[Live Project Link]" target="_blank">Live Demo</a>
-            </div>
+            <p>Here are some of the projects I've worked on:</p>
+            <!-- Add your projects here -->
         </div>
     </section>
-    <section id="experience">
+    <section id="experience" class="parallax pattern-bg">
         <div class="container">
+            <i class="fas fa-briefcase"></i> <!-- Icon -->
             <h2>Experience</h2>
-            <div class="experience">
-                <h3>Software Engineering Intern</h3>
-                <p><strong>Company:</strong> [Company Name], [Location]</p>
-                <p><strong>Duration:</strong> [Month Year] - [Month Year]</p>
-                <ul>
-                    <li>Developed a [specific project or feature] using [technologies].</li>
-                    <li>Collaborated with a team of [number] engineers to [specific task or project].</li>
-                    <li>Improved [specific metric] by [percentage].</li>
-                </ul>
-            </div>
-            <div class="experience">
-                <h3>Data Science Intern</h3>
-                <p><strong>Company:</strong> [Company Name], [Location]</p>
-                <p><strong>Duration:</strong> [Month Year] - [Month Year]</p>
-                <ul>
-                    <li>Analyzed large datasets using Python and SQL.</li>
-                    <li>Built predictive models to forecast [specific outcome].</li>
-                    <li>Reduced data processing time by [percentage].</li>
-                </ul>
-            </div>
+            <p>My professional experience includes:</p>
+            <!-- Add your experience details here -->
         </div>
     </section>
-    <section id="skills">
+    <section id="skills" class="parallax pattern-bg">
         <div class="container">
+            <i class="fas fa-code"></i> <!-- Icon -->
             <h2>Skills</h2>
-            <ul>
-                <li>Python, Java, C++</li>
-                <li>Web Development: HTML, CSS, JavaScript, React.js, Node.js</li>
-                <li>Machine Learning: TensorFlow, Keras, scikit-learn</li>
-                <li>Database Management: SQL, MongoDB</li>
-                <li>Tools & Technologies: Git, Docker, AWS</li>
-            </ul>
+            <p>Here are some of my skills:</p>
+            <!-- Add your skills here -->
         </div>
     </section>
-    <section id="contact">
+    <section id="contact" class="parallax pattern-bg">
         <div class="container">
+            <i class="fas fa-envelope"></i> <!-- Icon -->
             <h2>Contact</h2>
-            <p>Email: <a href="mailto:[your.email@example.com]">[your.email@example.com]</a></p>
-            <p>LinkedIn: <a href="[Your LinkedIn Profile]" target="_blank">[Your LinkedIn Profile]</a></p>
-            <p>GitHub: <a href="[Your GitHub Profile]" target="_blank">[Your GitHub Profile]</a></p>
+            <p>You can reach me at:</p>
+            <!-- Add your contact information here -->
         </div>
     </section>
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 [Your Name]. All rights reserved.</p>
-        </div>
-    </footer>
     <script src="script.js"></script>
 </body>
 </html>
