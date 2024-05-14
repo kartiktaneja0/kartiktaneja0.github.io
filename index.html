@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Brief introduction about yourself.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Detailed biography.</p>
+        <h3>Skills</h3>
+        <ul>
+            <li>Skill 1</li>
+            <li>Skill 2</li>
+            <li>Skill 3</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <!-- Repeat this block for each project -->
+        <div class="project">
+            <h3>Project Title</h3>
+            <p>Description of the project.</p>
+            <a href="https://github.com/yourusername/project-repo" target="_blank">View on GitHub</a>
+        </div>
+        <!-- End of project block -->
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="resume.pdf" target="_blank">Download Resume</a>
+        <!-- Interactive resume content can be added here -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+        <p>Follow me on <a href="https://www.linkedin.com/in/yourusername">LinkedIn</a>, <a href="https://github.com/yourusername">GitHub</a></p>
+    </footer>
+</body>
+</html>
